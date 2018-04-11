@@ -131,6 +131,16 @@ class PdoM2l
 
         return $laLigne;
     }
+
+    public function getLesMembre($code){
+        $req = "select membre.code as numeroMembre, membre.nom as nomMembre, membre.prenom as prenomMembre, tel as telMembre,codeLigue as numLigue
+		    from  membre where codeLigue ='$code'order by numeroMembre";
+
+        $res = PdoM2l::$monPdo->query($req);
+        $lesMembres = $res->fetchAll();
+
+        return $lesMembres;
+    }
 }
 
 ?>
