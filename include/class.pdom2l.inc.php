@@ -17,10 +17,10 @@
 
 class PdoM2l
 {
-    private static $serveur = 'mysql:host=localhost:3306';
-    private static $bdd = 'dbname=m2l';
-    private static $user = 'root';
-    private static $mdp = '';
+    private static $serveur = 'mysql:host=172.21.101.2';
+    private static $bdd = 'dbname=m2l_g2';
+    private static $user = 'm2l_g2';
+    private static $mdp = 'm2l_g2';
     private static $monPdo;
     private static $monPdoM2l = null;
 
