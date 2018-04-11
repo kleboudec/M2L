@@ -1,4 +1,4 @@
-<div class="container" role="main">
+ <div class="container" role="main">
 
     <p class="bg-success">
         Informations sur la ligue <?php echo $laLigue['nomLigue'] ?>
