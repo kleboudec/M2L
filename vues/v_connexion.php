@@ -20,6 +20,8 @@
         <input type="hidden" value="connexion" name="uc">
         <input type="hidden" value="valideConnexion" name="action">
 
+        <p>* champs obligatoires</p>
+
         <input type="submit" value="Valider" name="valider">
 
         <input type="reset" value="Annuler" name="annuler">
