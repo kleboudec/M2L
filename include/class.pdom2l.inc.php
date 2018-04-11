@@ -60,7 +60,7 @@ class PdoM2l
      */
     public function getInfosUtilisateur($login, $mdp)
     {
-        $req = "select utilisateur.id as id, utilisateur.login as login from utilisateur 
+        $req = "select utilisateur.id as id, utilisateur.login as login from utilisateur
 		where utilisateur.login='$login' and utilisateur.motdepasse='$mdp'";
 
         $rs = PdoM2l::$monPdo->query($req);
@@ -123,14 +123,13 @@ class PdoM2l
      */
     public function getInfosLigue($idLigue){
         $req = "select ligue.id as idLigue, ligue.nom as nomLigue, ligue.adresseRue as adrLigue, ligue.cp as cpLigue, 
-                ligue.ville as villeLigue, ligue.tel as numTel , ligue.emailContact as emailLigue, ligue.urlSiteWeb as urlLigue
+                ligue.ville as villeLigue, ligue.tel as numTel , ligue.emailContact as emailLigue, ligue.urlSiteWeb as urlLigue, horaire as horaireLigue
 		        from  ligue where ligue.id ='$idLigue'";
 
 		$res = PdoM2l::$monPdo->query($req);
         $laLigne = $res->fetch();
 
         return $laLigne;
-
     }
 }
 

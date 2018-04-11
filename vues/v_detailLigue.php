@@ -18,7 +18,10 @@
             <li class="list-group-item">
                 Site web : <?php echo $laLigue['urlLigue'] ?>
             </li>
+
+            <li class="list-group-item">
+                Horaire de la Ligue : <?php echo $laLigue['horaireLigue'] ?>
+            </li>
         </div>
     </ul>
-
 </div>
