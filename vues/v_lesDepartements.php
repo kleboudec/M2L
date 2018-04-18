@@ -1,4 +1,4 @@
-<div class="container" role="main">git p
+<div class="container" role="main">
     <p class="bg-success">
         Visualiser les ligues par département
     </p>
