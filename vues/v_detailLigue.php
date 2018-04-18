@@ -22,6 +22,10 @@
             <li class="list-group-item">
                 Horaire de la Ligue : <?php echo $laLigue['horaireLigue'] ?>
             </li>
+
+            <li class="list-group-item">
+                Olympique : <?php echo $laLigue['olympLigue'] ?>
+            </li>
         </div>
     </ul>
 </div>
