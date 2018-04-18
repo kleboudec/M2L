@@ -26,6 +26,10 @@
             <li class="list-group-item">
                 Olympique : <?php echo $laLigue['olympLigue'] ?>
             </li>
+
+            <li class="list-group-item">
+                <a href="index.php?uc=ligues&action=membres"> Liste des membres de la ligue</a>
+            </li>
         </div>
     </ul>
 </div>
