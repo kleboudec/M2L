@@ -22,6 +22,10 @@
             <li class="list-group-item">
                 Horaire de la Ligue : <?php echo $laLigue['horaireLigue'] ?>
             </li>
+
+            <li class="list-group-item">
+                <a href="index.php?uc=ligues&action=membres"> Liste des membres de la ligue</a>
+            </li>
         </div>
     </ul>
 </div>
