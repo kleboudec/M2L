@@ -20,6 +20,12 @@
                 $id = $uneLigue['idLigue'];
                 $nom = $uneLigue['nomLigue'];
                 $url = $uneLigue['urlLigue'];
+                $adresseRue = $uneLigue['adrLigue'];
+                $cp = $uneLigue['cpLigue'];
+                $ville = $uneLigue['villeLigue'];
+                $tel = $uneLigue['telLigue'];
+                $emailContact = $uneLigue['emailLigue'];
+                $olympique = $uneLigue['olympLigue'];
         ?>
                 <tr>
                     <th scope="row"><?php echo $nom ?></th>
