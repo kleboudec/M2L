@@ -13,7 +13,6 @@ Application web développée en PHP7 avec le pattern MVC
 -
 
 - nom de la base de données : m2l
-- user : root (sans mdp) !!!! A sécuriser
 - script sql : ./scripts/sql/bd_create_insert.sql
 
 ** Installation
